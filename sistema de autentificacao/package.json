@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  ".env" : {"JWT_SECRET": "your_jwt_secret_key_here"},
   "keywords": [],
   "author": "",
   "license": "ISC",
