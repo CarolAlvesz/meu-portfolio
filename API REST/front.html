@@ -32,6 +32,64 @@
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     }
+
+    nav a:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .carrinho {
+      font-size: 30px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+    label {
+      font-size: 18px;
+      margin-right: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    main {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .produto {
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgb(12, 0, 0);
+      display: inline-block;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+
+    .produto h3 {
+      font-size: 14px;
+    }
+
+    
+
+    .produto button {
+      background-color: #253b26;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 15px;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+
+   
+
+
  
  
     </style>
@@ -51,23 +109,29 @@
     </header>
 
     <main>
+      <div class="carrinho">🛒</div>
+      <label for="search">Buscar Produtos:</label>
+      <input type="text" id="search" name="search" placeholder="Digite o nome do produto">
 
         <section class="'produtos">
             <h2>Produtos em Destaque</h2>
             <div class="produto">
-                <h3>Produto 1</h3>
-                <p>Descrição do Produto 1.</p>
-                <p>Preço: R$ 100,00</p>
+                <h3>Pneu Aro</h3>
+                <p>Pneu Aro Goodyear Kelly Edge Touring 2</p>
+                <p>R$ 248,91</p>
+                <button>Adicionar ao carrinho</button>
             </div>
             <div class="produto">
-                <h3>Produto 2</h3>
-                <p>Descrição do Produto 2.</p>
-                <p>Preço: R$ 150,00</p>
+                <h3>Óleo 15W40</h3>
+                <p>Óleo Motor 15W40 Semissintético Tecno SL Lubrax</p>
+                <p>R$ 23,00</p>
+                <button>Adicionar ao carrinho</button>
             </div>
             <div class="produto">
-                <h3>Produto 3</h3>
-                <p>Descrição do Produto 3.</p>
-                <p>Preço: R$ 200,00</p>
+                <h3>Discos de Freio</h3>
+                <p>Disco Freio Dianteiro Ventilado Fremax Toyota Corolla 1.8 16V</p>
+                <p>R$ 550,00</p>
+                <button>Adicionar ao carrinho</button>
             </div>
              
         </section>
